@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora básica sin funciones</title>
+</head>
+<body>
+    <script>
+        let valorA = parseFloat(prompt("Ingrese el primer número: "));
+        let valorB = parseFloat(prompt("Ingrese el segundo número: "));
+        let operacion = prompt("Ingrese la operación (suma, resta, multiplica, divide): ");
+
+        let resultado;
+
+        if (operacion === "suma") {
+            resultado = valorA + valorB;
+        } else if (operacion === "resta") {
+            resultado = valorA - valorB;
+        } else if (operacion === "multiplica") {
+            resultado = valorA * valorB;
+        } else if (operacion === "divide") {
+            resultado = valorA / valorB;
+        } else {
+            resultado = "Operación no válida";
+        }
+
+        document.write("El resultado es: ", resultado);
+    </script>
+</body>
+</html>

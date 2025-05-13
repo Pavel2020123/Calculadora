@@ -1,0 +1,24 @@
+/* Estilos para el cuerpo de la página */
+body {
+    color: rgb(43, 23, 23); /* Establece el color del texto como un tono oscuro de rojo */
+    font-family: cursive;   /* Establece la fuente del texto en estilo cursiva */
+    margin: 20px;           /* Añade un margen de 20 píxeles alrededor del contenido */
+}
+
+/* Estilos para las tablas */
+table {
+    width: 50%;             /* La tabla ocupará el 50% del ancho de su contenedor */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas adyacentes en un solo borde */
+    margin: 20px 0;         /* Añade un margen de 20 píxeles en la parte superior e inferior de la tabla */
+}
+
+/* Estilos para las celdas de la tabla (encabezados y celdas normales) */
+th, td {
+    border: 1px solid;     /* Aplica un borde de 1 píxel de grosor y color negro por defecto */
+    padding: 8px;           /* Añade un relleno de 8 píxeles dentro de las celdas */
+}
+
+/* Estilos para las celdas de los encabezados de la tabla */
+th {
+    background-color: rgb(124, 192, 115); /* Establece el color de fondo del encabezado en un verde claro */
+}
